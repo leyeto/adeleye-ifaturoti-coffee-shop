@@ -1,8 +1,16 @@
 html {
   font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
 }
 
 body {
+  margin: 0;
   font-family: "Open Sans";
   font-weight: 400;
   font-size: 1.6rem;
@@ -13,8 +21,9 @@ body {
 header {
   display: flex;
   flex-direction: row;
-  margin-bottom: 5rem;
+  margin-bottom: 4rem;
   align-items: baseline;
+  background-color: #fff0ed;
 }
 
 nav {
