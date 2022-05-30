@@ -1,0 +1,19 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 1.6rem;
+}
+
+.website-icon {
+  min-width: 50px;
+  max-width: 120px;
+}
+
+.website-name {
+  font-size: 5rem;
+  text-decoration: none;
+}

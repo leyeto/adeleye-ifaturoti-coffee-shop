@@ -1,0 +1,64 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
+footer {
+  background-color: #fff0ed;
+  font-size: 3.3rem;
+  font-weight: 300;
+}
+
+.header,
+.pink-background {
+  background-color: #fff0ed;
+}
+
+.header__image {
+  padding: 2rem 2rem;
+  display: block;
+}
+
+.header__shop-now {
+  color: white;
+  background-color: #5bacc3;
+  text-decoration: none;
+}
+
+.nav-item {
+  font-size: 3.3rem;
+  font-weight: 300;
+}
+
+.product__discount {
+  background-color: #393939;
+  color: #fff;
+  text-align: center;
+  font-size: 2rem;
+  margin: 0%;
+}
+
+.product__discount p {
+  font-size: 4.5rem;
+  font-weight: 400;
+}
+
+.products__item {
+  font-weight: 300;
+}
+
+.products__price {
+  color: #5bacc3;
+  font-size: 2rem;
+}
+
+.product__view-all {
+  text-decoration: none;
+  background-color: #5bacc3;
+  color: white;
+  margin: 0%;
+}
