@@ -6,6 +6,25 @@ body {
   font-family: "Open Sans";
   font-weight: 400;
   font-size: 1.6rem;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 5rem;
+  align-items: baseline;
+}
+
+nav {
+  padding: 3rem;
+  font-size: 3.3rem;
+  font-weight: 300;
+}
+
+.header__item {
+  margin: 2rem 1rem;
 }
 
 .website-icon {
@@ -14,6 +33,7 @@ body {
 }
 
 .website-name {
-  font-size: 5rem;
+  font-size: 6rem;
   text-decoration: none;
+  font-weight: 300;
 }
