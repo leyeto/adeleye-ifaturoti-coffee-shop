@@ -13,7 +13,7 @@ footer {
   font-weight: 300;
 }
 
-.header,
+header,
 .pink-background {
   background-color: #fff0ed;
 }
@@ -34,6 +34,13 @@ footer {
   font-weight: 300;
 }
 
+.product {
+  margin: 8rem auto;
+  box-shadow: 1rem 1rem 1rem 1rem grey;
+  padding: 4rem 9rem;
+  border-radius: 3rem;
+}
+
 .product__discount {
   background-color: #393939;
   color: #fff;
@@ -49,6 +56,11 @@ footer {
 
 .products__item {
   font-weight: 300;
+}
+
+.products__list {
+  display: flex;
+  justify-content: space-around;
 }
 
 .products__price {
