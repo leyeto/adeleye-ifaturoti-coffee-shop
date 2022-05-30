@@ -21,7 +21,7 @@ footer {
 }
 
 header,
-.pink-background {
+.hero-section {
   background-color: #fff0ed;
 }
 
@@ -34,6 +34,19 @@ header,
   color: white;
   background-color: #5bacc3;
   text-decoration: none;
+}
+
+.hero-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.hero-section__divider {
+  width: 37rem;
+  display: flex;
+  flex-direction: column;
 }
 
 .nav-item {
@@ -50,11 +63,12 @@ header,
 }
 
 .product__discount {
+  width: 90%;
   background-color: #393939;
   color: #fff;
   text-align: center;
   font-size: 2rem;
-  margin: 0%;
+  margin: 10rem auto;
 }
 
 .product__discount p {
@@ -77,9 +91,11 @@ header,
   margin: auto 1rem;
 }
 
+.products__section > h2 {
+  width: 20rem;
+  margin: 5rem auto;
+}
+
 .product__view-all {
-  text-decoration: none;
-  background-color: #5bacc3;
-  color: white;
-  margin: 0%;
+  margin: 10rem auto;
 }

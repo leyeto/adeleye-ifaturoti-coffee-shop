@@ -41,24 +41,31 @@
       </nav>
     </header>
 
-    <div class="pink-background">
-      <h1 class="header__company-name">Nitro Coffee</h1>
-      <p class="header__company-text">
-        Coffee is brewed drink prepared from roasted coffee beans, the seeds of
-        berries from certain Coffea species
-      </p>
+    <section class="hero-section">
+      <div class="hero-section__divider hero-section__divider--centered">
+        <h1 class="header__company-name">Nitro Coffee</h1>
+        <p class="header__company-text">
+          Coffee is brewed drink prepared from roasted coffee beans, the seeds
+          of berries from certain Coffea species
+        </p>
+        <!-- FIXME Button acting like block -->
+        <a class="header__shop-now" href="./pages/menu.html"
+          ><button>SHOP NOW</button>
+        </a>
+      </div>
 
-      <img
-        class="header__image"
-        src="./assets/images/coffeebeans-hero.png"
-        alt="coffee bag"
-      />
-      <a class="header__shop-now" href="./pages/menu.html">SHOP NOW </a>
-    </div>
+      <div class="hero-section__divider">
+        <img
+          class="header__image"
+          src="./assets/images/coffeebeans-hero.png"
+          alt="coffee bag"
+        />
+      </div>
+    </section>
 
     <main>
       <section class="products__section">
-        <h2>Our Products</h2>
+        <h2 class="products__section-title">Our Products</h2>
 
         <section class="products__list">
           <div class="product">
@@ -97,7 +104,7 @@
       </section>
 
       <section class="product__discount">
-        <p class="product__discount">
+        <p class="product__discount-text">
           Get 20% off your first purchase with code: <strong>FirstNitro</strong>
         </p>
       </section>
