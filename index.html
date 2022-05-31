@@ -48,9 +48,9 @@
           Coffee is brewed drink prepared from roasted coffee beans, the seeds
           of berries from certain Coffea species
         </p>
-        <!-- FIXME Button acting like block -->
+
         <a class="header__shop-now" href="./pages/menu.html"
-          ><button>SHOP NOW</button>
+          ><button class="header__button">SHOP NOW</button>
         </a>
       </div>
 
@@ -74,8 +74,15 @@
               src="./assets/images/coffeebeans.png"
               alt="coffee beans"
             />
-            <h2 class="products__item">Coffee Beans</h2>
-            <p class="products__price">$18.99</p>
+
+            <div class="product__bundle">
+              <div>
+                <h2 class="products__item">Coffee Beans</h2>
+                <h3 class="bundle number">Pack of 3</h3>
+              </div>
+
+              <p class="products__price">$19</p>
+            </div>
           </div>
 
           <div class="product">
@@ -84,8 +91,15 @@
               src="./assets/images/coldbrew.png"
               alt="cold brew"
             />
-            <h2 class="products__item">Cold Brew</h2>
-            <p class="products__price">$4.99</p>
+
+            <div class="product__bundle">
+              <div>
+                <h2 class="products__item">Cold Brew</h2>
+                <h3 class="bundle number">1 can</h3>
+              </div>
+
+              <p class="products__price">$5</p>
+            </div>
           </div>
 
           <div class="product">
@@ -94,14 +108,22 @@
               src="./assets/images/inhousebrew.png"
               alt="in-house brew"
             />
-            <h2 class="products__item">In House Brew</h2>
-            <p class="products__price">$2.99</p>
+
+            <div class="product__bundle">
+              <div>
+                <h2 class="products__item">In House Brew</h2>
+                <h3 class="bundle number">1 cup</h3>
+              </div>
+
+              <p class="products__price">$3</p>
+            </div>
           </div>
         </section>
-
-        <!--FIXME VIEW ALL should take user to Menu  -->
-        <a href="./pages/menu.html" class="product__view-all">VIEW ALL</a>
       </section>
+
+      <div class="product__view-all">
+        <a href="./pages/menu.html">VIEW ALL</a>
+      </div>
 
       <section class="product__discount">
         <p class="product__discount-text">

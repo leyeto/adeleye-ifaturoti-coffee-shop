@@ -21,9 +21,13 @@ body {
 header {
   display: flex;
   flex-direction: row;
-  margin-bottom: 4rem;
   align-items: baseline;
   background-color: #fff0ed;
+}
+
+header a {
+  text-decoration: none;
+  color: #393939;
 }
 
 nav {
