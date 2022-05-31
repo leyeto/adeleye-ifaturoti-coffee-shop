@@ -69,6 +69,8 @@ header,
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  background-color: #fff0ed;
+  height: 100%;
 }
 
 .product__discount {
