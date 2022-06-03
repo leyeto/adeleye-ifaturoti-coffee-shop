@@ -1,0 +1,15 @@
+@use "../abstracts/" as a;
+
+.hero {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10rem;
+  background-color: a.$nitro-pink;
+
+  &__divider {
+    width: 30%;
+    margin: auto 5rem;
+  }
+}

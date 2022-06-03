@@ -1,0 +1,41 @@
+@use "../abstracts/" as a;
+
+.products {
+  background-color: a.$p-grey;
+
+  &__heading {
+    display: flex;
+    justify-content: center;
+  }
+
+  &__group {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  &__item {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 0 5px 9px -1px grey;
+    padding: 2rem;
+    border-radius: 1rem;
+    min-width: 33rem;
+    max-width: 35rem;
+    min-height: 44rem;
+    max-height: 46rem;
+  }
+
+  &__image {
+    min-height: 24rem;
+    max-height: 55rem;
+    margin: 0 auto;
+    width: 60%;
+  }
+
+  &__bundle {
+    background-color: a.$nitro-pink;
+    display: flex;
+    justify-content: space-between;
+  }
+}

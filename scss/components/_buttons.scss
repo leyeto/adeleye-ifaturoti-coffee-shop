@@ -1,0 +1,12 @@
+@use "../abstracts/" as a;
+.hero {
+  &__button {
+    color: white;
+    background-color: a.$nitro-blue;
+    margin-top: 2rem;
+    padding: 2rem;
+    min-width: 18rem;
+    max-width: 80%;
+    border: none;
+  }
+}

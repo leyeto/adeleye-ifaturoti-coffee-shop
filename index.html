@@ -7,56 +7,63 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./css/global.css" />
-    <link rel="stylesheet" href="./css/landing.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
     <title>Coffee Shop - Home</title>
   </head>
   <body>
     <header class="header">
-      <img
-        class="website-icon header__icon header__item"
-        src="./assets/logos/coffee-beans-logo-and-footer.svg"
-        alt="coffee bean logo"
-      />
-      <a class="website-name header__icon-name header__item" href="./index.html"
-        >nitro</a
-      >
+      <div class="header__icon-name">
+        <img
+          class="header__icon header__baseline"
+          src="./assets/logos/coffee-beans-logo-and-footer.svg"
+          alt="coffee bean logo"
+        />
+        <a class="header__icon-name header__baseline" href="./index.html"
+          >nitro</a
+        >
+      </div>
 
       <nav>
-        <a class="nav-item header__nav-item header__item" href="./index.html"
-          >ABOUT</a
-        >
-
-        <a
-          class="nav-item header__nav-item header__item"
-          href="./pages/menu.html"
-          >MENU</a
-        >
-
-        <a
-          class="nav-item header__nav-item header__item"
-          href="./pages/menu.html"
-          >SHOP NOW</a
-        >
+        <ul>
+          <li class="header__anchor-list">
+            <a class="header__baseline header__anchor-item" href="./index.html"
+              >ABOUT</a
+            >
+          </li>
+          <li class="header__anchor-list">
+            <a
+              class="header__baseline header__anchor-item"
+              href="./pages/menu.html"
+              >MENU</a
+            >
+          </li>
+          <li class="header__anchor-list">
+            <a
+              class="header__baseline header__anchor-item"
+              href="./pages/menu.html"
+              >SHOP NOW</a
+            >
+          </li>
+        </ul>
       </nav>
     </header>
 
-    <section class="hero-section">
-      <div class="hero-section__divider hero-section__divider--centered">
-        <h1 class="header__company-name">Nitro Coffee</h1>
-        <p class="header__company-text">
+    <section class="hero">
+      <div class="hero__divider hero__divider--centered">
+        <h1 class="hero__company-name">Nitro Coffee</h1>
+        <p class="hero__company-text">
           Coffee is brewed drink prepared from roasted coffee beans, the seeds
           of berries from certain Coffea species
         </p>
 
-        <a class="header__shop-now" href="./pages/menu.html"
-          ><button class="header__button">SHOP NOW</button>
+        <a class="hero__shop-now" href="./pages/menu.html"
+          ><button class="hero__button">SHOP NOW</button>
         </a>
       </div>
 
-      <div class="hero-section__divider">
+      <div class="hero__divider">
         <img
-          class="header__image"
+          class="hero__image"
           src="./assets/images/coffeebeans-hero.png"
           alt="coffee bag"
         />
@@ -64,74 +71,73 @@
     </section>
 
     <main>
-      <section class="products__section">
-        <h2 class="products__section-title">Our Products</h2>
+      <section class="products">
+        <h2 class="products__heading">Our Products</h2>
 
-        <section class="products__list">
-          <div class="product">
+        <section class="products__group">
+          <div class="products__item">
             <img
-              class="product__image"
+              class="products__image"
               src="./assets/images/coffeebeans.png"
               alt="coffee beans"
             />
 
-            <div class="product__bundle">
+            <div class="products__bundle">
               <div>
-                <h2 class="products__item">Coffee Beans</h2>
-                <h3 class="bundle number">Pack of 3</h3>
+                <h2 class="products__name">Coffee Beans</h2>
+                <h3 class="products__package">Pack of 3</h3>
               </div>
 
               <p class="products__price">$19</p>
             </div>
           </div>
 
-          <div class="product">
+          <div class="products__item">
             <img
-              class="product__image"
+              class="products__image"
               src="./assets/images/coldbrew.png"
               alt="cold brew"
             />
 
-            <div class="product__bundle">
+            <div class="products__bundle">
               <div>
-                <h2 class="products__item">Cold Brew</h2>
-                <h3 class="bundle number">1 can</h3>
+                <h2 class="products__name">Cold Brew</h2>
+                <h3 class="products__package">1 can</h3>
               </div>
 
               <p class="products__price">$5</p>
             </div>
           </div>
 
-          <div class="product">
+          <div class="products__item">
             <img
-              class="product__image"
+              class="products__image"
               src="./assets/images/inhousebrew.png"
               alt="in-house brew"
             />
 
-            <div class="product__bundle">
+            <div class="products__bundle">
               <div>
-                <h2 class="products__item">In House Brew</h2>
-                <h3 class="bundle number">1 cup</h3>
+                <h2 class="products__name">In House Brew</h2>
+                <h3 class="products__package">1 cup</h3>
               </div>
 
               <p class="products__price">$3</p>
             </div>
           </div>
         </section>
-      </section>
 
-      <div class="product__view-all">
-        <a href="./pages/menu.html">VIEW ALL</a>
-      </div>
+        <div class="products__view-all">
+          <a class="products__view-link" href="./pages/menu.html">VIEW ALL</a>
+        </div>
 
-      <section class="product__discount">
         <p class="product__discount-text">
           Get 20% off your first purchase with code: <strong>FirstNitro</strong>
         </p>
       </section>
-
-      <footer>
+    </main>
+    <footer>
+      <section class="footer">
         <div class="address"></div>
         <h3>Address</h3>
         <p>
@@ -160,7 +166,7 @@
             ><img src="./assets/images/Instagram-Icon.svg" alt="instagram"
           /></a>
         </div>
-      </footer>
-    </main>
+      </section>
+    </footer>
   </body>
 </html>

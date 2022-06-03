@@ -1,0 +1,46 @@
+@use "../abstracts/" as a;
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+h1,
+h2 {
+  font-size: 6rem;
+  font-weight: 300;
+}
+
+h3 {
+  font-size: 3.3rem;
+  font-weight: 300;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans";
+  font-weight: 400;
+  color: a.$p-graphite;
+}
+
+a {
+  text-decoration: none;
+  color: a.$p-graphite;
+  font-size: 2.1rem;
+}
+
+li {
+  list-style: none;
+}
+
+p {
+  font-size: 1.8rem;
+  font-weight: 400;
+}

@@ -1,0 +1,19 @@
+@use "../abstracts/" as a;
+.header {
+  &__icon-name {
+    font-size: 3.3rem;
+  }
+}
+
+.products {
+  &__name {
+    font-size: 3.3rem;
+    font-weight: 400;
+  }
+
+  &__package {
+    font-size: 1.8rem;
+    color: grey;
+    font-weight: 400;
+  }
+}
