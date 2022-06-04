@@ -1,0 +1,51 @@
+@use "../abstracts/" as a;
+.menu {
+  &__options {
+    background-color: a.$p-graphite;
+    width: 100%;
+    height: 8rem;
+    min-height: 6rem;
+    padding: 2rem;
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  a {
+    color: white;
+    margin: 0 2rem;
+    border-left: 0.4rem solid a.$nitro-blue;
+    padding-left: 2rem;
+  }
+
+  &__p {
+    font-style: italic;
+  }
+
+  &__price {
+    color: a.$nitro-blue;
+  }
+
+  &__header,
+  &__type,
+  &__p,
+  &__price {
+    margin: 2rem auto;
+    text-align: center;
+    width: 35%;
+  }
+}
+
+.hot-drinks,
+.pastries {
+  padding: 5rem;
+  background-color: a.$nitro-pink;
+}
+
+.cold-drinks {
+  padding: 5rem;
+  background-color: a.$p-grey;
+}
