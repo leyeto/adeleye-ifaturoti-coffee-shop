@@ -15,3 +15,9 @@
   min-width: 5rem;
   max-width: 12rem;
 }
+
+@mixin move-relative-bottom-right($bottom, $right) {
+  position: relative;
+  bottom: $bottom;
+  right: $right;
+}

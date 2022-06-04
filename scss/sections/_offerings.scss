@@ -5,8 +5,9 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 6rem;
+    margin: 2rem 6rem;
     padding: 5rem;
+    position: relative;
   }
 
   &__image {
@@ -17,6 +18,7 @@
     display: flex;
     justify-content: center;
     padding: 6rem;
+    @include a.move-relative-bottom-right(0.5rem, 0.5rem);
   }
 
   &__major-element {

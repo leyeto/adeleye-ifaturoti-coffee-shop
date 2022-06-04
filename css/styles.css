@@ -80,6 +80,10 @@ p {
 footer {
   background-color: #fff0ed;
   padding: 0 4rem 2rem;
+  background-image: url("../../assets/logos/coffee-beans-logo-and-footer.svg"), url("../../assets/logos/coffee-beans-logo-and-footer.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-position: -1% 3%, 101% 5%;
+  background-size: 10rem;
 }
 
 .footer {
@@ -128,7 +132,6 @@ footer {
   justify-content: center;
   flex-direction: column;
   box-shadow: 0 5px 9px -1px grey;
-  padding: 2rem;
   border-radius: 1rem;
   min-width: 33rem;
   max-width: 35rem;
@@ -139,12 +142,12 @@ footer {
   min-height: 24rem;
   max-height: 55rem;
   margin: 0 auto;
-  padding: 2rem;
 }
 .products__bundle {
   background-color: #fff0ed;
   display: flex;
   align-items: center;
+  padding: 1rem;
   justify-content: space-between;
   height: 100%;
 }
@@ -157,8 +160,9 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin: 6rem;
+  margin: 2rem 6rem;
   padding: 5rem;
+  position: relative;
 }
 .offerings__image {
   min-width: 40rem;
@@ -168,6 +172,9 @@ footer {
   display: flex;
   justify-content: center;
   padding: 6rem;
+  position: relative;
+  bottom: 0.5rem;
+  right: 0.5rem;
 }
 .offerings__major-element {
   margin: 5rem 6rem;
@@ -202,6 +209,7 @@ footer {
   background-image: url("../../assets/images/coffee-circle.jpg");
   background-size: cover;
   width: 100%;
+  position: relative;
   height: 57.5rem;
   max-height: 60rem;
   background-position: center;
@@ -210,6 +218,9 @@ footer {
 }
 .menu-hero__heading {
   background-color: #393939;
+  position: relative;
+  bottom: 0.5rem;
+  right: 0.5rem;
   min-width: 280px;
   max-width: 300px;
   min-height: 180px;
@@ -261,6 +272,11 @@ footer {
   background-color: #f7f7f7;
 }
 
+.hero__shop-now {
+  position: relative;
+  bottom: 0.5rem;
+  right: 0.5rem;
+}
 .hero__button {
   color: white;
   background-color: #5bacc3;
@@ -269,9 +285,6 @@ footer {
   min-width: 18rem;
   max-width: 80%;
   border: none;
-}
-.hero__button:hover {
-  background-color: darkgray;
 }
 
 .products__button {
@@ -282,6 +295,9 @@ footer {
   min-width: 18rem;
   max-width: 80%;
   border: none;
+  position: relative;
+  bottom: 0.5rem;
+  right: 0.5rem;
 }
 
 .offerings__cta {
@@ -292,6 +308,9 @@ footer {
   min-width: 18rem;
   max-width: 80%;
   border: none;
+  position: relative;
+  bottom: 0.5rem;
+  right: 0.5rem;
 }
 
 .active {

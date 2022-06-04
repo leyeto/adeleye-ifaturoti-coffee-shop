@@ -3,6 +3,7 @@
   background-image: url("../../assets/images/coffee-circle.jpg");
   background-size: cover;
   width: 100%;
+  position: relative;
   height: 57.5rem;
   max-height: 60rem;
   background-position: center;
@@ -11,6 +12,7 @@
 
   &__heading {
     background-color: a.$p-graphite;
+    @include a.move-relative-bottom-right(0.5rem, 0.5rem);
     min-width: 280px;
     max-width: 300px;
     min-height: 180px;

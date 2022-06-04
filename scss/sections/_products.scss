@@ -19,7 +19,6 @@
     justify-content: center;
     flex-direction: column;
     box-shadow: 0 5px 9px -1px grey;
-    padding: 2rem;
     border-radius: 1rem;
     min-width: 33rem;
     max-width: 35rem;
@@ -31,13 +30,14 @@
     min-height: 24rem;
     max-height: 55rem;
     margin: 0 auto;
-    padding: 2rem;
+    // padding: 2rem;
   }
 
   &__bundle {
     background-color: a.$nitro-pink;
     display: flex;
     align-items: center;
+    padding: 1rem;
     justify-content: space-between;
     height: 100%;
   }

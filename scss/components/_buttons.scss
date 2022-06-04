@@ -1,23 +1,26 @@
 @use "../abstracts/" as a;
+// @use "../abstracts/mixins" as m;
 
 .hero {
+  &__shop-now {
+    @include a.move-relative-bottom-right(0.5rem, 0.5rem);
+  }
+
   &__button {
     @include a.blue-button;
-
-    &:hover {
-      background-color: darkgray;
-    }
   }
 }
 
 .products {
   &__button {
     @include a.blue-button;
+    @include a.move-relative-bottom-right(0.5rem, 0.5rem);
   }
 }
 
 .offerings {
   &__cta {
     @include a.blue-button;
+    @include a.move-relative-bottom-right(0.5rem, 0.5rem);
   }
 }

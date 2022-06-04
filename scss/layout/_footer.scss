@@ -3,10 +3,13 @@
 footer {
   background-color: a.$nitro-pink;
   padding: 0 4rem 2rem;
-  //   padding-bottom: 1rem;
+  background-image: url("../../assets/logos/coffee-beans-logo-and-footer.svg"),
+    url("../../assets/logos/coffee-beans-logo-and-footer.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-position: -1% 3%, 101% 5%;
+  background-size: 10rem;
 }
 .footer {
-  //   background-color: a.$nitro-pink;
   margin: 6rem;
   display: flex;
   flex-direction: row;
