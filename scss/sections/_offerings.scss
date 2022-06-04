@@ -1,0 +1,49 @@
+@use "../abstracts/" as a;
+
+.offerings {
+  &__outter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 6rem;
+    padding: 5rem;
+  }
+
+  &__image {
+    min-width: 40rem;
+    max-width: 50rem;
+    background-image: url("../../assets/images/coldbrewbackground.png");
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    padding: 6rem;
+  }
+
+  &__major-element {
+    margin: 5rem 6rem;
+    width: 50rem;
+  }
+
+  &__text-images {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__tiny-image {
+    @include a.icons-size;
+  }
+
+  &__discount-text {
+    max-width: 90%;
+    min-width: min-content;
+    height: 10rem;
+    background-color: #393939;
+    color: #fff;
+    text-align: center;
+    font-size: 4.5rem;
+    font-weight: 400;
+    margin: auto auto;
+    vertical-align: middle;
+    line-height: 10rem;
+  }
+}

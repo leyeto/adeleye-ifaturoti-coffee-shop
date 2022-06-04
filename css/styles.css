@@ -56,6 +56,11 @@ p {
   color: grey;
   font-weight: 400;
 }
+.products__price {
+  font-size: 2.9rem;
+  font-weight: 700;
+  color: #5bacc3;
+}
 
 .header {
   display: flex;
@@ -70,6 +75,27 @@ p {
 }
 .header__anchor-item {
   margin: 0 2rem;
+}
+
+footer {
+  background-color: #fff0ed;
+  padding: 0 4rem 2rem;
+}
+
+.footer {
+  margin: 6rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.footer__address {
+  display: flex;
+  flex-direction: column;
+}
+.footer img {
+  width: 5rem;
+  min-width: 5rem;
+  max-width: 12rem;
 }
 
 .hero {
@@ -87,6 +113,7 @@ p {
 
 .products {
   background-color: #f7f7f7;
+  padding-top: 4rem;
 }
 .products__heading {
   display: flex;
@@ -112,18 +139,92 @@ p {
   min-height: 24rem;
   max-height: 55rem;
   margin: 0 auto;
-  width: 60%;
+  padding: 2rem;
 }
 .products__bundle {
   background-color: #fff0ed;
   display: flex;
+  align-items: center;
   justify-content: space-between;
+  height: 100%;
+}
+.products__view-all {
+  display: flex;
+  justify-content: center;
+}
+
+.offerings__outter {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 6rem;
+  padding: 5rem;
+}
+.offerings__image {
+  min-width: 40rem;
+  max-width: 50rem;
+  background-image: url("../../assets/images/coldbrewbackground.png");
+  background-size: contain;
+  display: flex;
+  justify-content: center;
+  padding: 6rem;
+}
+.offerings__major-element {
+  margin: 5rem 6rem;
+  width: 50rem;
+}
+.offerings__text-images {
+  display: flex;
+  justify-content: space-between;
+}
+.offerings__tiny-image {
+  width: 5rem;
+  min-width: 5rem;
+  max-width: 12rem;
+}
+.offerings__discount-text {
+  max-width: 90%;
+  min-width: -webkit-min-content;
+  min-width: -moz-min-content;
+  min-width: min-content;
+  height: 10rem;
+  background-color: #393939;
+  color: #fff;
+  text-align: center;
+  font-size: 4.5rem;
+  font-weight: 400;
+  margin: auto auto;
+  vertical-align: middle;
+  line-height: 10rem;
 }
 
 .hero__button {
   color: white;
   background-color: #5bacc3;
-  margin-top: 2rem;
+  margin: 5rem 0;
+  padding: 2rem;
+  min-width: 18rem;
+  max-width: 80%;
+  border: none;
+}
+.hero__button:hover {
+  background-color: darkgray;
+}
+
+.products__button {
+  color: white;
+  background-color: #5bacc3;
+  margin: 5rem 0;
+  padding: 2rem;
+  min-width: 18rem;
+  max-width: 80%;
+  border: none;
+}
+
+.offerings__cta {
+  color: white;
+  background-color: #5bacc3;
+  margin: 5rem 0;
   padding: 2rem;
   min-width: 18rem;
   max-width: 80%;

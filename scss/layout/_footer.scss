@@ -1,0 +1,23 @@
+@use "../abstracts/" as a;
+
+footer {
+  background-color: a.$nitro-pink;
+  padding: 0 4rem 2rem;
+  //   padding-bottom: 1rem;
+}
+.footer {
+  //   background-color: a.$nitro-pink;
+  margin: 6rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  &__address {
+    display: flex;
+    flex-direction: column;
+  }
+
+  img {
+    @include a.icons-size;
+  }
+}

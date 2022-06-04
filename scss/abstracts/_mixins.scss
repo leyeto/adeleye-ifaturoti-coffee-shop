@@ -1,0 +1,17 @@
+@use "./colors" as a;
+
+@mixin blue-button {
+  color: white;
+  background-color: a.$nitro-blue;
+  margin: 5rem 0;
+  padding: 2rem;
+  min-width: 18rem;
+  max-width: 80%;
+  border: none;
+}
+
+@mixin icons-size {
+  width: 5rem;
+  min-width: 5rem;
+  max-width: 12rem;
+}

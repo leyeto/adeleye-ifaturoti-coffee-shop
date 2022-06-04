@@ -2,6 +2,7 @@
 
 .products {
   background-color: a.$p-grey;
+  padding-top: 4rem;
 
   &__heading {
     display: flex;
@@ -30,12 +31,19 @@
     min-height: 24rem;
     max-height: 55rem;
     margin: 0 auto;
-    width: 60%;
+    padding: 2rem;
   }
 
   &__bundle {
     background-color: a.$nitro-pink;
     display: flex;
+    align-items: center;
     justify-content: space-between;
+    height: 100%;
+  }
+
+  &__view-all {
+    display: flex;
+    justify-content: center;
   }
 }
