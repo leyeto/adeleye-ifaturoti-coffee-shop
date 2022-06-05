@@ -1,0 +1,32 @@
+@use "./colors" as a;
+@keyframes change-color {
+  0% {
+    background-color: black;
+  }
+  50% {
+    background-color: a.$nitro-blue;
+  }
+  100% {
+    background-color: black;
+  }
+}
+
+@keyframes spinning-can {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(1080deg);
+  }
+}
+
+.offerings {
+  &__discount-text {
+    animation: change-color 5s 1s infinite;
+  }
+
+  &__tilted-can {
+    animation: spinning-can 8s 1s;
+  }
+}
