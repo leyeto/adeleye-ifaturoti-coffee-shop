@@ -23,10 +23,10 @@
 
 .offerings {
   &__discount-text {
-    animation: change-color 5s 1s infinite;
+    animation: change-color 5000ms 1000ms infinite;
   }
 
   &__tilted-can {
-    animation: spinning-can 8s 1s;
+    animation: spinning-can 8000ms 1000ms;
   }
 }

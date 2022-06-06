@@ -37,12 +37,12 @@
   }
 }
 .offerings__discount-text {
-  -webkit-animation: change-color 5s 1s infinite;
-          animation: change-color 5s 1s infinite;
+  -webkit-animation: change-color 5000ms 1000ms infinite;
+          animation: change-color 5000ms 1000ms infinite;
 }
 .offerings__tilted-can {
-  -webkit-animation: spinning-can 8s 1s;
-          animation: spinning-can 8s 1s;
+  -webkit-animation: spinning-can 8000ms 1000ms;
+          animation: spinning-can 8000ms 1000ms;
 }
 
 html {
